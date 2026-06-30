@@ -2,11 +2,11 @@ body{
 
 margin:0;
 
-font-family: Georgia, serif;
+font-family:Georgia, serif;
 
-background:#f4ead5;
+background:#f3e8cf;
 
-color:#33251a;
+color:#302015;
 
 line-height:1.8;
 
@@ -22,7 +22,7 @@ top:0;
 
 width:100%;
 
-background:#2b1b0e;
+background:#352015;
 
 color:white;
 
@@ -35,6 +35,7 @@ padding:15px;
 z-index:10;
 
 }
+
 
 
 nav a{
@@ -60,12 +61,13 @@ rgba(0,0,0,.55),
 rgba(0,0,0,.55)
 ),
 
-url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Parthenon_Athens.jpg/1200px-Parthenon_Athens.jpg");
+url("images/parthenon.jpg");
 
 
 background-size:cover;
 
 background-position:center;
+
 
 display:flex;
 
@@ -79,6 +81,7 @@ color:white;
 
 
 }
+
 
 
 .hero h1{
@@ -99,9 +102,9 @@ padding:100px 15%;
 
 h2{
 
-font-size:42px;
+font-size:40px;
 
-border-bottom:3px solid #b08b4f;
+color:#6b4320;
 
 }
 
@@ -109,19 +112,20 @@ border-bottom:3px solid #b08b4f;
 
 .god{
 
+background:white;
+
+padding:35px;
+
+margin:40px 0;
+
 display:flex;
 
 gap:40px;
 
-background:white;
-
-padding:30px;
-
-margin:40px 0;
-
 border-radius:15px;
 
 }
+
 
 
 .god img{
@@ -132,22 +136,23 @@ height:350px;
 
 object-fit:cover;
 
+border-radius:10px;
+
 }
 
 
 
-
-.box,.artifact{
+.card{
 
 background:white;
 
-padding:30px;
+padding:35px;
 
 margin:30px 0;
 
 border-radius:15px;
 
-box-shadow:0 5px 20px #bbb;
+box-shadow:0 5px 15px rgba(0,0,0,.2);
 
 }
 
@@ -155,7 +160,7 @@ box-shadow:0 5px 20px #bbb;
 
 footer{
 
-background:#2b1b0e;
+background:#352015;
 
 color:white;
 
@@ -169,11 +174,13 @@ padding:30px;
 
 @media(max-width:800px){
 
+
 .god{
 
 flex-direction:column;
 
 }
+
 
 .hero h1{
 
